@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# --- Builds / distribucion ---
+build/
+build_final/
+build_nuevo/
+dist/
+dist_final/
+installer/
+*.spec.bak
+
+# --- Binarios y runtime (se descargan con "Actualizar") ---
+assets/*.exe
+assets/ffmpeg.zip
+assets/cookies.txt
+
+# --- Datos locales (contienen credenciales y bases de datos) ---
+data/
+.cache
+
+# --- Otros ---
+*.log
+.env
+Thumbs.db
+.DS_Store
